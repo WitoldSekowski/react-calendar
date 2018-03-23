@@ -1,0 +1,35 @@
+.weekday-wrapper {
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    color: #fff;
+    height: fit-content;
+    width: 170px;
+}
+
+h3, h4 {
+    margin:0;
+    padding-top: 5px;
+}
+
+.previousMonth, .nextMonth {
+    opacity: 0.2;
+    
+}
+
+.previousMonth, .nextMonth, .normalMonth {
+    height: fit-content;
+    margin-bottom: 5px;
+}
+
+.normalMonth {
+    background: green;
+}
+
+.previousMonth {
+    background: red;
+}
+
+.nextMonth {
+    background: blue
+}
